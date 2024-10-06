@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  background-image: url(images/pokebola\ background.png);
+  background-size: 10rem 15rem;
+}
+
+form {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+form div {
+    display: flex;
+    align-items: stretch;
+    gap: 1rem;
+}
+
+input[type='text']{
+    display: block;
+    min-width: 15rem;
+}
+
+button {
+    cursor: pointer;
+    background-color: lightgray;
+    border-radius: 0.3rem;
+}
+
+h1 {
+    margin-block-end: 0.1rem;
+}
+
+.pokemon {
+    font-size: 3rem;
+}
+
+.tipo::before{
+    content: '/';
+}
+
+.tipo {
+    font-weight: 400;
+}
+
+main{
+    display: grid;
+    place-content: center;
+    text-align: center;
+    margin-block-start: 5rem;
+}
+
+.dates {
+    width: 15rem;
+    height: 12rem;
+    border: 5px solid black;
+    background-color: aliceblue;
+    border-radius: 1rem;
+}
+
+.tarjet {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#imagePokemon {
+    width: 25rem;
+    height: 25rem;
+}
